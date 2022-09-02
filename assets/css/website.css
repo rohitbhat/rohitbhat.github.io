@@ -280,6 +280,11 @@ a:hover {
   text-decoration: none;
 }
 
+.contact-icon a:hover {
+  transform: scale(1);
+  opacity: 0.85;
+}
+
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
   color: inherit;
@@ -26623,5 +26628,3 @@ pre[class*="language-"] {
     overflow: auto !important;
   }
 }
-
-/*# sourceMappingURL=dashboard-free.css.map */
